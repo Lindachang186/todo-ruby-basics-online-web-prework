@@ -14,8 +14,8 @@ def greeting(hello, bye)
 
 end
 
-def return_a_value(phrase)
- return phrase = "Nice"
+def return_a_value(phrase = "Nice")
+ return phrase
 end
 
 def last_evaluated_value
