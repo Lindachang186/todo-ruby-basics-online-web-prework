@@ -11,7 +11,7 @@ def argue(argument)
 end
 
 def greeting(hello, bye)
-  puts hello, bye 
+  puts hello, bye
 end
 
 def return_a_value(phrase = "Nice")
@@ -22,6 +22,6 @@ def last_evaluated_value(phrase = "expert")
   return phrase
 end
 
-def pizza_party
-
+def pizza_party(order = "cheese")
+return order
 end
